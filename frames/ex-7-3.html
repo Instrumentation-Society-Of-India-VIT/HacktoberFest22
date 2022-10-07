@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20MIS0114</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(45deg, rgb(174, 173, 238), rgb(137, 209, 202));
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: small;
+        }
+    </style>
+    <script src="ex-7-3.js"></script>
+
+</head>
+
+<body>
+    <form action="">
+        <label for="fname">First Name :</label>
+        <input type="text" name="fname" id="fname"><br><br>
+        <label for="lname">Last Name :</label>
+        <input type="text" name="lname" id="lname"><br><br>
+        <label for="date">Date :</label>
+        <input type="date" name="date" id="date"><br><br>
+        <label for="color">Select color option :</label>
+        <select name="color" id="color">
+            <option value="colored">Colored</option>
+            <option value="plain">Black & White</option>
+        </select><br><br>
+        <label for="content">Ad Content :</label><br>
+        <textarea name="content" id="content" cols="30" rows="10"></textarea><br><br>
+        <label for="city">Select city :</label>
+        <select name="city" id="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Bangalore">Bangalore</option>
+        </select><br><br>
+        <input type="button" value="proceed" id="proceed" onclick="calculate()"><br>
+        <strong>
+            <div>
+                <p id="cost"></p>
+            </div>
+        </strong>
+    </form>
+</body>
+
+</html>
