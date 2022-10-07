@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20MIS0114</title>
+    <script src="ex-7-1.js"></script>
+    <style>
+        body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(45deg, rgb(174, 173, 238), rgb(187, 247, 224));
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="num1">Number 1 :</label>
+        <input type="text" id="num1" value=""><br><br>
+        <label for="num1">Number 2 :</label>
+        <input type="text" id="num2" value=""><br>
+        <p>Note:- For square and factorial provide only Number 1</p><br>
+        <input id="operation" type="button" value="+" onclick="add()" />
+        <input id="operation" type="button" value="-" onclick="subtract()" />
+        <input id="operation" type="button" value="*" onclick="multiply()" />
+        <input id="operation" type="button" value="/" onclick="divide()" />
+        <input id="operation" type="button" value="%" onclick="mod()" />
+        <input id="operation" type="button" value="Square" onclick="square()" />
+        <input id="operation" type="button" value="Factorial" onclick="factorial()" /><br><br>
+        <strong>
+        <div id="alert" style="color: red"></div></strong>
+        <br>
+        <br>
+        <label for="circle">Enter radius of circle :</label>
+        <input type="text" id="circle" value=""><br>
+        <input id="operation" type="button" value="Calculate" onclick="circle1()" /><br><br>
+        <label for="side">Side of square :</label>
+        <input type="text" id="side" value=""><br>
+        <input id="operation" type="button" value="Calculate" onclick="square1()" /><br><br>
+        <label for="Length">Length of rectangle :</label>
+        <input type="text" id="Length" value=""><br><br>
+        <label for="Breadth">Breadth of rectangle :</label>
+        <input type="text" id="Breadth" value=""><br>
+        <input id="operation" type="button" value="Calculate" onclick="rectangle()" /><br>
+        <strong>
+            <div id="shape" style="color: red"></div></strong>
+    </form>
+</body>
+</html>
