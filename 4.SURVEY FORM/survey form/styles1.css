@@ -1,0 +1,103 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+
+body{
+    background:url(https://img.lovepik.com/element/40027/6141.png_300.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family:sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+header{
+    margin: 2rem;
+    text-align: center;
+}
+
+.container{
+    background-color: rgba(22,30,45,0.9);
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+
+/* to separate different parts of the form */
+
+fieldset{
+    border: none;
+    margin:  2 auto;
+    width: 100%;
+    color: #AEDBCE;
+}
+
+/* for questions */
+
+#name, #email, #number, #dropdown{
+    width: 100%;
+    height: 35px;
+    background-color: #1B2430;
+    border: none;
+    color: white;
+    line-height: 2em;
+    font-size: 1.5rem;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.3 );
+}
+
+#co{
+    width: 100%;
+    background-color: #1B2430;
+    border: none;
+    color: white;
+    line-height: 2em;
+    font-size: 1.5rem;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.3 );
+}
+
+
+/* button */
+#submit-button{
+    color: white;
+    display: block;
+    width: 50%;
+    padding: 0.75rem 0rem;
+    background: linear-gradient(#1B2430, #51557E);
+    color: inherit;
+    border-style: hidden;
+    border-radius: 2px;
+    cursor: pointer;
+    margin:0 25%;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 50%;
+    }
+    #name, #email, #number, #dropdown, #comment{
+        font-size: 50%;
+    }
+}
+
+p{
+    margin: 0.01em;
+}
+
+option{
+    color: black;
+}

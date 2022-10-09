@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+body{
+    font-family: "Outfit";
+}
+
+h1{
+    color:hsl(0, 0%, 100%);
+    font-size: large;
+}
+
+p{
+    color:hsl(215, 51%, 70%);
+}
+
+.background-section{
+    background-color: hsl(217, 54%, 11%);
+    display:grid;
+    justify-content:center;
+    margin: 0;
+}
+
+/* card body */
+
+.card{
+    background-color: hwb(215 8% 76%);
+    border-radius: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 10% 25% 10% 25%;
+}
+
+.days{
+    color: hsl(215, 51%, 70%);
+    text-emphasis-style: strong;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.cost{
+    color:hsl(178, 100%, 50%);
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.equilibrium-img{
+    width: 100%;
+    border-radius: 4%;
+    display: block;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* creator section of card */
+
+hr{
+    width: 70%;
+    position: relative;
+    display: flex;
+    margin: 1em auto;
+    color: hsl(215, 32%, 27%);
+}
+
+.creator-section{
+    padding: 3% 0;
+}
+
+.created-by{
+    margin-left: 15%;
+    padding-left: 3%;
+}
+
+.created-by p{
+    margin-top: 4%;
+}
+
+.name{
+    color: hsl(0, 0%, 100%);
+}
+
+.creator-img{
+    float: left;
+    width:30px;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: hsl(0, 0%, 100%);
+}
+
+/* footer */
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(228, 45%, 44%);
+}
+
+/* responsive */
+
+@media screen and (max-width: 375px) {
+    .column {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 370) {
+    .h1 {
+        font-size:small;
+    }
+}
+
+
