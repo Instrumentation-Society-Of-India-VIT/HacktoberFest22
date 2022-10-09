@@ -1,0 +1,34 @@
+h1{
+    font-style: bold;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+.background{
+    background-color: hsl(212, 45%, 89%);
+    padding: 8rem;
+}
+
+.card.my-card{
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Outfit";
+    text-align: center;
+    border-radius: 1.5rem;
+    margin: 1rem;
+}
+
+.qr-img{
+    border-radius: 2rem;
+    padding: 5%;
+}
+
+.attribution{
+    font-size: 11px; 
+    text-align: center; 
+}
