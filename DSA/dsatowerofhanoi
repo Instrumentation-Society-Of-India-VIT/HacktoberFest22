@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+void toh(int num , char to , char from , char help)
+{
+if (num == 1)
+{
+    printf("The disc %d will move form %c to %c\n " ,num , from , to);
+}
+else {
+    toh(num -1 , help ,from , to);
+    printf("The disc %d is moved from %c to %c\n",num, from, to);
+    toh( num-1 ,to , help , from);
+
+}
+}
+int main(){
+    int num;
+    printf("enter the no of disc to be moved :");
+    scanf("%d\n" , &num);
+    toh(num , 'c' , 'a' , 'b');
+    return 0;
+}
