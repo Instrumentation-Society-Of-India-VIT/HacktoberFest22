@@ -1,0 +1,45 @@
+.container-1{
+    border:2px solid black;
+    width: 75;
+    margin:0 auto;
+    text-align: center;
+    align-items: center;
+}
+.flex-box-container-1{
+    display: flex;
+    border:1px solid black;
+    padding :10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction:row;
+
+}
+/*
+In the flex box container-1 class if there is any div 
+add 10 px space between them
+*/
+.flex-box-container-1 div{
+    display: flex;
+    padding :10px;
+    border: 1px solid black
+     
+}
+
+.container-2{
+    border:2px solid red;
+    width: 800;
+    margin:0 auto;
+    text-align: center;
+}
+.flex-box-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid blue;
+    justify-content: space-around;
+}
+.flex-box-container-2 img{
+          border: 1px solid gold;
+          padding : 10px;
+          box-shadow: 0px 10px 50px rgba(rgba(255, 0, 0, 0), green, blue, alpha);
+
+}
