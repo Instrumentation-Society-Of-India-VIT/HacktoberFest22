@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+
+.form{
+    /* margin-top: 50%; */
+    margin-left:25%;
+    /* margin-right: 70%; */
+    border:1px solid black;
+    width:40%;
+    padding: 50px;
+    padding-left:100px ;
+    margin-top: 5%;
+    background-color: antiquewhite;
+}
+.form label{
+    margin-bottom:20px;
+    padding:40px;
+    font-size: 20px;
+}
+
+.form input{
+    margin:8px;
+}
+
+.form #address,#complaint{
+    padding: 25px;
+}
+
+.form #submit{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 180px;
+}
+
+
