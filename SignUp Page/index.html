@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap" rel="stylesheet">
+    <title>aria | sign up</title>
+</head>
+
+<body>
+    <header class="topnav">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <div class="darkmode">
+        <button onclick="myFunction()"><img src="https://play-lh.googleusercontent.com/mGLcHR2Yt_Dpclvx7oTYBLwXqxxuJVr4QInuaIDbAFbhACpzB89aGUwQee-7mcjYFw" height ="25" width="25"/></button>
+        <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+        </script>
+        </div>
+    </header>
+
+    <div class="content">
+        <h4>START FOR FREE</h4>
+        <h1>Create New Account  <a class="exe">!</a></h1>
+        <h5>Already A Member ? <a href="#">Log in</a></h5>
+        <form>
+                <div class="container">
+                <input type="text" name="firstname" placeholder="Firstname" size="15" required />
+                <input type="text" name="lastname" placeholder="Lastname" size="15" required /><br>
+                <input class = "inbox" type="text" placeholder="Enter Email" name="email" required><br>
+                <input class="inbox" type="password" placeholder="Enter Password" name="psw" required><br>
+                <input class="inbox" type="password" placeholder="Retype Password" name="psw-repeat" required><br>
+                <button class="but"type="submit" class="registerbtn">SUBMIT</button>
+        </form>
+    </div>
+    <div class="footer">
+        </div>
+</body>
+
+</html>
